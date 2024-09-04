@@ -81,7 +81,7 @@ def main():
 
     # run demo
     test_path = "dataset"
-    network_type = 'densefuse'
+    network_type = 'MSPFusion'
     fusion_type = 'auto'  # auto, fusion_layer, fusion_all
     strategy_type_list = ['addition',
                           'attention_weight']  # addition, attention_weight, attention_enhance, adain_fusion, channel_fusion, saliency_mask
@@ -92,7 +92,7 @@ def main():
         output_path = './output/%d/' % q
         # output_path = 'pol/'
         strategy_type = strategy_type_list[0]
-        hyper_path = 'NWPUSP/%d.mat' % q
+        hyper_path = 'NWPUSPI/%d.mat' % q
         # hyper_path = '/media/jin/b/dataset/NWPUSPI/mat_v2/%d.mat' % q
         rgb = sio.loadmat(hyper_path)['input']
         hsi = sio.loadmat(hyper_path)['label']
