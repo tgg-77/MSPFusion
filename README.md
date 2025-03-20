@@ -3,7 +3,7 @@
 
 [[`Paper`](https://doi.org/10.1016/j.eswa.2025.127079)] [[`Dataset`](https://drive.google.com/file/d/1wU2D9SXr5OsATYwjgJkelbg_95pAsMoW/view?usp=drive_link)] 
 
-![MSPFusion design](images/model_diagram.png?raw=true)
+![MSPFusion design](images/Model_Diagram.png?raw=true)
 
 The **MSPFusion model** can fuse multi-source images such as spectral polarization. It has been verified on a spectral polarization [dataset](https://drive.google.com/file/d/1wU2D9SXr5OsATYwjgJkelbg_95pAsMoW/view?usp=drive_link) NWPUSP containing 34 scenes.
 
