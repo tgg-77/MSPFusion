@@ -3,14 +3,16 @@
 
 [[`Paper`](https://doi.org/10.1016/j.eswa.2025.127079)] [[`Dataset`](https://drive.google.com/file/d/1wU2D9SXr5OsATYwjgJkelbg_95pAsMoW/view?usp=drive_link)] 
 
+MSPFusion design
 ![MSPFusion design](images/Model_Diagram.png)
 
 The **MSPFusion model** can fuse multi-source images such as spectral polarization. It has been verified on a spectral polarization [dataset](https://drive.google.com/file/d/1wU2D9SXr5OsATYwjgJkelbg_95pAsMoW/view?usp=drive_link) NWPUSP containing 34 scenes.
 
-<p float="left">
-  <img src="images/NWPUSP1.png?raw=true" width="37.25%" />
-  <img src="images/NWPUSP2.png?raw=true" width="61.5%" /> 
-</p>
+Data preview
+![Data_Preview](images/Data_Preview.png)
+
+NWPUSPI data
+![NWPUSPI data](images/NWPUSP.png)
 
 ## Installation
 
@@ -40,6 +42,12 @@ python train.py
 ```
 python test_MSPFusion.py
 ```
+
+## <a name="Result"></a>Result
+
+![Result](images/Result.png)
+
+![Radar_Chart](images/Radar_Chart.png)
 
 ## License
 The model is licensed under the [Apache 2.0 license](LICENSE).
