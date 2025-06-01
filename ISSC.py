@@ -46,14 +46,12 @@ class ISSC_HSI(object):
 
 
         # 定义三维数据
-        hdr_path = r'I:\dataset\10.14data\160\newrawfile20231014125245.hdr'
-        wavelength = read_dataset.read_hdr(hdr_path)  # 波长
         xx = np.arange(400, 720, 10)
         yy = np.arange(400, 720, 10)
         row, col = np.diag_indices_from(affinity)
         z = affinity
         z[row, col] = 0
-        X, Y = np.meshgrid(wavelength, wavelength)
+        X, Y = np.meshgrid(xx, yy)
         fig = plt.figure()
         ax = plt.axes(projection="3d")
         print(X.shape, Y.shape, z.shape)
