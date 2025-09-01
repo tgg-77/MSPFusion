@@ -1,4 +1,5 @@
 Dataset format:
+
   RGB polarization data:"input"(696×687×12)
       input[0:3] # RGB data at 0 polarization degree
       input[3:6] # RGB data at 45 polarization degree
